@@ -32,7 +32,8 @@ read PRIVKEY
 rpcuser=charity123
 rpcpassword=rpcpassword123
 rpcallowip=127.0.0.1
-rpcport=3300
+rpcport=3301
+port=3300
 listen=1
 server=1
 daemon=1
