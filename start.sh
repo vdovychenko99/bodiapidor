@@ -14,7 +14,7 @@ sudo apt-get install unzip
 git clone https://github.com/vdovychenko99/1lin
 git clone https://github.com/vdovychenko99/cli
 cd 1lin
-unzip charityd
+unzip charityd.zip
 chmod 777 charityd
 cd ..
 cd cli
