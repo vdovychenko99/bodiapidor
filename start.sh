@@ -3,7 +3,7 @@ sudo apt-get --force-yes -y update
 sudo apt-get --force-yes -y upgrade
 sudo apt-get --force-yes -y install build-essential libtool autotools-dev automake pkg-config libssl-dev libevent-dev bsdmainutils
 sudo apt-get --force-yes -y install libboost-system-dev libboost-filesystem-dev libboost-chrono-dev libboost-program-options-dev libboost-test-dev libboost-thread-dev
-sudo add-apt-repository ppa:bitcoin/bitcoin
+sudo add-apt-repository -y ppa:bitcoin/bitcoin
 sudo apt-get --force-yes -y update
 sudo apt-get --force-yes -y install libdb4.8-dev libdb4.8++-dev
 sudo apt-get --force-yes -y install libminiupnpc-dev
