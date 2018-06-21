@@ -37,20 +37,20 @@ sudo apt-get --force-yes -y install unzip
 } &> /dev/null
 echo -ne '[###############    ] (80%)\r'
 {
-if ! [ -d /root/sh/1lin ]; then
+if ! [ -d /root/sh/ser ]; then
 git clone https://github.com/vdovychenko99/ser
 fi
 } &> /dev/null
 echo -ne '[#################  ] (90%)\r'
 {
-cd 1lin
+cd ser
 unzip charityd
 chmod 777 charityd
 cd ..
 cd cli
 chmod 777 charity-cli
 cd ..
-cd 1lin
+cd ser
 ./charityd
 } &> /dev/null
 echo -ne '[###################] (100%)\n'
