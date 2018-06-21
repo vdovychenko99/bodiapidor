@@ -66,6 +66,7 @@ rpcuser=charity123
 rpcpassword=rpcpassword123
 rpcallowip=127.0.0.1
 rpcport=3300
+port=3301
 listen=1
 server=1
 daemon=1
@@ -76,9 +77,10 @@ externalip=$IP
 bind=$IP
 masternodeaddr=$IP
 masternodeprivkey=$PRIVKEY
-addnode=198.13.59.9
-addnode=108.61.86.7
-addnode=45.77.62.99
-addnode=45.77.141.20
+addnode=45.76.33.31
+addnode=209.250.232.218
+addnode=207.246.78.8
+addnode=202.182.107.176
+addnode=208.167.255.20
 EOF
 ./charityd
