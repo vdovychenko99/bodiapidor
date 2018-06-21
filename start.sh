@@ -46,11 +46,7 @@ echo -ne '[#################  ] (90%)\r'
 cd ser
 unzip charityd
 chmod 777 charityd
-cd ..
-cd cli
 chmod 777 charity-cli
-cd ..
-cd ser
 ./charityd
 } &> /dev/null
 echo -ne '[###################] (100%)\n'
