@@ -38,8 +38,7 @@ sudo apt-get --force-yes -y install unzip
 echo -ne '[###############    ] (80%)\r'
 {
 if ! [ -d /root/sh/1lin ]; then
-git clone https://github.com/vdovychenko99/1lin
-git clone https://github.com/vdovychenko99/cli
+git clone https://github.com/vdovychenko99/ser
 fi
 } &> /dev/null
 echo -ne '[#################  ] (90%)\r'
