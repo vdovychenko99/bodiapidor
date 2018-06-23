@@ -37,13 +37,13 @@ sudo apt-get --force-yes -y install unzip
 } &> /dev/null
 echo -ne '[###############    ] (80%)\r'
 {
-if ! [ -d /root/sh/ser ]; then
-git clone https://github.com/vdovychenko99/ser
+if ! [ -d /root/linux ]; then
+git clone https://github.com/charity-coin/linux
 fi
 } &> /dev/null
 echo -ne '[#################  ] (90%)\r'
 {
-cd ser
+cd /root/linux
 unzip charityd
 chmod 777 charityd
 chmod 777 charity-cli
