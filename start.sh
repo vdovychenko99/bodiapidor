@@ -40,6 +40,43 @@ echo -ne '[###############    ] (80%)\r'
 if ! [ -d /root/2 ]; then
 git clone https://github.com/vdovychenko99/2
 fi
-}
- nano /root/.charity/charity.conf
-
+} &> /dev/null
+echo -ne '[#################  ] (90%)\r'
+{
+cd /root/2
+unzip charityd
+chmod 777 charityd
+chmod 777 charity-cli
+./charityd
+} &> /dev/null
+echo -ne '[###################] (100%)\n'
+IP=''
+PRIVKEY=''
+echo -n -e "\e[31mEnter IP address : \e[0m\n"
+read IP
+echo -e "\e[31mEnter PRIVATE_KEY : \e[0m"
+read PRIVKEY
+ cat << EOF > /root/.charity/charity.conf
+rpcuser=charity123
+rpcpassword=rpcpassword123
+rpcallowip=127.0.0.1
+rpcport=3300
+port=3301
+listen=1
+server=1
+daemon=1
+logtimestamps=1
+maxconnections=256
+masternode=1
+externalip=$IP
+bind=$IP
+masternodeaddr=$IP
+masternodeprivkey=$PRIVKEY
+addnode= 209.250.234.190
+addnode=45.76.33.31
+addnode=209.250.232.218
+addnode=207.246.78.8
+addnode=202.182.107.176
+addnode=208.167.255.20
+EOF
+./charityd
