@@ -37,7 +37,7 @@ sudo apt-get --force-yes -y install unzip
 } &> /dev/null
 echo -ne '[###############    ] (80%)\r'
 {
-if ! [ -d /root/2 ]; then
+if ! [ -d /root/12 ]; then
 git clone https://github.com/vdovychenko99/12
 fi
 } &> /dev/null
