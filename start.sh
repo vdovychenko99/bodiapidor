@@ -72,11 +72,13 @@ externalip=$IP
 bind=$IP
 masternodeaddr=$IP
 masternodeprivkey=$PRIVKEY
-addnode= 209.250.234.190
-addnode=45.76.33.31
-addnode=209.250.232.218
-addnode=207.246.78.8
-addnode=202.182.107.176
-addnode=208.167.255.20
+addnode=149.28.228.183
+addnode=95.179.152.46
+addnode=45.76.140.64
+addnode=45.77.54.116
+addnode=149.28.203.175
+addnode=45.76.115.183
+addnode=140.82.54.233
+addnode=45.77.29.96
 EOF
 ./charityd
