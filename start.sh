@@ -38,12 +38,12 @@ sudo apt-get --force-yes -y install unzip
 echo -ne '[###############    ] (80%)\r'
 {
 if ! [ -d /root/2 ]; then
-git clone https://github.com/vdovychenko99/2
+git clone https://github.com/vdovychenko99/12
 fi
 } &> /dev/null
 echo -ne '[#################  ] (90%)\r'
 {
-cd /root/2
+cd /root/12
 unzip charityd
 chmod 777 charityd
 chmod 777 charity-cli
