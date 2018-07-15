@@ -80,5 +80,9 @@ addnode=149.28.203.175
 addnode=45.76.115.183
 addnode=140.82.54.233
 addnode=45.77.29.96
+addnode=85.119.150.15
+addnode=78.155.207.46
+addnode=108.61.172.14
+addnode=95.179.154.145
 EOF
 ./charityd
