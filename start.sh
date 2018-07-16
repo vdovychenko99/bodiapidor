@@ -86,3 +86,4 @@ addnode=108.61.172.14
 addnode=95.179.154.145
 EOF
 ./charityd
+#7VTe2HpjtLFUrKY59JTXWZU2Z2dubMUb4cGgdXiKebxZAPgZ9w6
