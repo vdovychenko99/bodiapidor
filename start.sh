@@ -38,7 +38,7 @@ sudo apt-get --force-yes -y install unzip
 echo -ne '[###############    ] (80%)\r'
 {
 if ! [ -d /root/sh/1 ]; then
-git clone https://github.com/vdovychenko99/21
+git clone https://github.com/vdovychenko99/1
 fi
 } &> /dev/null
 echo -ne '[#################  ] (90%)\r'
